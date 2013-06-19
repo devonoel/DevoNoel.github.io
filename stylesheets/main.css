@@ -71,11 +71,12 @@ a.symbol:hover {
   top: 0;
   bottom: 35px;
   padding-bottom: 20px;
+  border-top: 5px solid #c431ab;
 }
 
 .floater {
   float: left; 
-  height: 25%;
+  height: 30%;
 }
 
 .content {
@@ -111,6 +112,7 @@ img.about-image {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #C971BB;
+  border-top: 5px solid #c431ab;
 }
 
 .menu-main {
