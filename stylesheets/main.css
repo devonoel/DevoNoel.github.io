@@ -96,6 +96,16 @@ a.symbol:hover {
 	line-height: 30px;
 }
 
+.content-about > p > a{
+	color: #C971BB;
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.content-about > p > a:hover{
+	color: #EEE;
+}
+
 img.about-image {
 	float: left;
 	padding-right: 25px;
