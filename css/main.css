@@ -1,3 +1,9 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
 * {
   background-color: #343434;
   color: #ccc;
@@ -74,44 +80,6 @@ a.symbol:hover {
   border-top: 5px solid #c431ab;
 }
 
-.floater {
-  float: left; 
-  height: 30%;
-}
-
-.content {
-  clear: both;
-  height: auto;
-  position: relative;
-  text-align: center;
-}
-
-.content-about {
-	padding: 50px;
-	float: left;
-}
-
-.content-about > p {
-	font-size: 35px;
-	line-height: 30px;
-}
-
-.content-about > p > a{
-	color: #C971BB;
-	font-size: 35px;
-	line-height: 30px;
-}
-
-.content-about > p > a:hover{
-	color: #EEE;
-}
-
-img.about-image {
-	float: left;
-	padding-right: 25px;
-	padding-bottom: 15px;
-}
-
 .menu {
   background-color: #832c75;
   bottom: 0;
@@ -184,4 +152,65 @@ h4 {
 h5 {
   color: #A4A4A4;
   font-size: 14px;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+.floater {
+  float: left; 
+  height: 30%;
+}
+
+.content {
+  clear: both;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Blog
+/*
+/*****************************************************************************/
+
+.blog {
+	padding: 50px;
+	float: left;
+}
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+.content-about {
+	padding: 50px;
+	float: left;
+}
+
+.content-about > p {
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.content-about > p > a{
+	color: #C971BB;
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.content-about > p > a:hover{
+	color: #EEE;
+}
+
+img.about-image {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 15px;
 }
