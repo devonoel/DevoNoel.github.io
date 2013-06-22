@@ -9,7 +9,7 @@
   color: #ccc;
   margin: 0;
   padding: 0;
-  font-family: 'Lekton', Helvetica, Arial, sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 18px;
   line-height: 25px;
   font-style: normal;
@@ -75,7 +75,7 @@ a.symbol:hover {
   left: 0;
   right: 0;
   top: 0;
-  bottom: 35px;
+  bottom: 55px;
   padding-bottom: 20px;
   border-top: 5px solid #c431ab;
 }
@@ -100,8 +100,8 @@ a.symbol:hover {
 .menu-main  > a{
   background-color: #832c75;
   color: #C971BB;
-  font-size: 35px;
-  font-family: 'Molengo', Georgia, Times, serif;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
   text-transform: lowercase;
   padding: 10px;
   padding-right: 15px;
@@ -130,15 +130,16 @@ a.menu-active {
 
 h1 {
   color: #a32f8f;
-  font-family: 'Molengo', Georgia, Times, serif;
-  font-size: 70px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+	line-height: 45px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
 h2 {
   color: #a32f8f;
-  font-family: 'Molengo', Georgia, Times, serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   margin-top: 15px;
   padding-top: 10px;
@@ -207,14 +208,18 @@ h5 {
 }
 
 .content-about > p {
-	font-size: 35px;
+	font-size: 22px;
+	/*
 	line-height: 30px;
+	*/
 }
 
 a.about-link {
 	color: #C971BB;
-	font-size: 35px;
+	font-size: 22px;
+	/*
 	line-height: 30px;
+	*/
 }
 
 a.about-link:hover{
