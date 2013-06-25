@@ -59,9 +59,12 @@ body {
 	color: #989F31;
 }
 
+.symbol {
+  margin-right: 0.3em;
+}
+
 a.symbol:before {
     content: attr(title);
-    margin-right: 0.3em;
     font-size: 130%;
 }
 
@@ -75,9 +78,10 @@ a.symbol:hover {
   left: 0;
   right: 0;
   top: 0;
-  bottom: 55px;
+  bottom: 50px;
   padding-bottom: 20px;
   border-top: 7px solid #586C10;
+  border-bottom: 7px solid #586C10;
 }
 
 .menu {
@@ -89,7 +93,6 @@ a.symbol:hover {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 7px solid #586C10;
 }
 
 .menu-main {
@@ -164,7 +167,7 @@ a {
   height: auto;
   position: relative;
   text-align: center;
-	width: 100%
+	width: 100%;
 	max-width: 1400px;
 }
 
@@ -207,9 +210,6 @@ a {
 
 .content-about > p {
 	font-size: 22px;
-	/*
-	line-height: 30px;
-	*/
 }
 
 a.about-link {
