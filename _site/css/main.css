@@ -5,8 +5,8 @@
 /*****************************************************************************/
 
 * {
-  background-color: #343434;
-  color: #ccc;
+  background-color: #20390D;
+  color: #EEE6BC;
   margin: 0;
   padding: 0;
   font-family: 'Arvo', serif;
@@ -43,20 +43,20 @@ body {
 }
 
 .symbol, a.symbol:before {
-    font-family: 'Mono Social Icons Font';
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-	color: #C971BB;
-	background-color: #832c75;
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 	font-size: 35px;
+	background-color: #343434;
+	color: #989F31;
 }
 
 a.symbol:before {
@@ -66,7 +66,7 @@ a.symbol:before {
 }
 
 a.symbol:hover {
-	color: #ccc;
+  color: #EEE6BC;
 }
 
 .container {
@@ -77,11 +77,11 @@ a.symbol:hover {
   top: 0;
   bottom: 55px;
   padding-bottom: 20px;
-  border-top: 5px solid #c431ab;
+  border-top: 7px solid #586C10;
 }
 
 .menu {
-  background-color: #832c75;
+  background-color: #343434;
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -89,8 +89,7 @@ a.symbol:hover {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #C971BB;
-  border-top: 5px solid #c431ab;
+  border-top: 7px solid #586C10;
 }
 
 .menu-main {
@@ -98,8 +97,8 @@ a.symbol:hover {
 }
 
 .menu-main  > a{
-  background-color: #832c75;
-  color: #C971BB;
+  background-color: #343434;
+	color: #989F31;
   font-size: 30px;
   font-family: 'Ubuntu', sans-serif;
   text-transform: lowercase;
@@ -109,27 +108,17 @@ a.symbol:hover {
 }
 
 .menu-main > a:hover {
-  color: #CCC;
-}
-
-.menu-main > a:active {
-  background-color: #c431ab;
-  color: #720759;
-}
-
-a.menu-active {
-  background-color: #c431ab;
-  color: #720759;
+  color: #EEE6BC;
 }
 
 .menu-social {
   float: right;
-  background-color: #832c75;
+  background-color: #343434;
   padding-right: 10px;
 }
 
 h1 {
-  color: #a32f8f;
+  color: #989F31;
   font-family: 'Ubuntu', sans-serif;
   font-size: 80px;
 	line-height: 45px;
@@ -138,7 +127,7 @@ h1 {
 }
 
 h2 {
-  color: #a32f8f;
+  color: #989F31;
   font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   margin-top: 15px;
@@ -215,7 +204,7 @@ h5 {
 }
 
 a.about-link {
-	color: #C971BB;
+	color: #C1C059;
 	font-size: 22px;
 	/*
 	line-height: 30px;

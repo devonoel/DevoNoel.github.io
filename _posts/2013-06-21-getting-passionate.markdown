@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Getting Passionate"
-categories: jekyll update
 ---
 
 Anyone who's ever given serious thought to the idea of passion and productivity should be able to tell you that being productive and successful boils down to a pretty simple idea: If you're passionate about it, you'll do it.  If you're not passionate, you won't.  If you're not passionate, you'll make up excuses, claim you don't have time, you're too overworked, too distracted.  You'll tell yourself, "I'll do it tomorrow", or "I'll start once I'm less busy at work".  If you're making these kinds of claims, you're simply not passionate about it, full stop.
