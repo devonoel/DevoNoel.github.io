@@ -3,7 +3,7 @@ layout: post
 title:  "Sacrifice"
 ---
 
-In an earlier blog post, I talked about following one’s passion in life.  I can't honestly say that its full of new, groundbreaking ideas, but it chronicles the realizations I've had about following your passion, and about the dedication it takes. However, there's one fairly import aspect of following your dreams that I didn't talk about: the sacrifices you have to make along the way.  I left that part out by design; I feel that it needs its own post entirely.
+[In an earlier blog post][getting-passionate], I talked about following one’s passion in life.  I can't honestly say the post is full of new, groundbreaking ideas, but it chronicles the realizations I've had about following your passion, and about the dedication it takes. However, there's one fairly import aspect of following your dreams that I didn't talk about: the sacrifices you have to make along the way.  I left that part out by design; I feel that it needs its own post entirely.
 
 Passion is a largely romanticized concept, especially in the hacker culture.  Following your dreams must be so liberating!  Every day must be a new adventure!  Oh how happy it must make you to be the master of your own destiny!  On and on.  I think its very rarely that simple though.  Following dreams isn't something you do because its a fun; it's something you do because you just can't help yourself.  Because if you don't, you feel physically ill.  Because if you don't, you can't sleep.  Following your dreams requires more than a love for your dream.  It requires fanaticism for it.
 
@@ -15,4 +15,4 @@ I'm not just talking out of my ass here; I've had dreams that I've followed befo
 
 What am I trying to articulate to you, dear reader?  That if you truly, deeply desire something, you must realize the cost of achieving your heart's desire.  But know also that no matter how hard it is, and no matter how much you have to give up, that one day when you look back at your experiences, you'll do so without regret, and that in the end you'll know it was worth it.
 
-
+[getting-passionate]: /2013/06/21/getting-passionate.html
