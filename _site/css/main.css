@@ -97,6 +97,7 @@ a.symbol:hover {
 
 .menu-main {
   float: left;
+	background-color: #343434;
 }
 
 .menu-main  > a{
@@ -112,6 +113,11 @@ a.symbol:hover {
 
 .menu-main > a:hover {
   color: #EEE6BC;
+}
+
+a.menu-active {
+	background-color: #586C10;
+	color: #343434;
 }
 
 .menu-social {
