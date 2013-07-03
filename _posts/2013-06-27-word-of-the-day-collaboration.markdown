@@ -16,5 +16,3 @@ The first project I'm working on focuses on helping writers connect with proofre
 The second project I'm working on involves providing inspiration to authors.  Let's say that you have a great idea for a story, or play, or a screenplay, but you know you'll never get around to actually writing it.  And let's say that there's a writer out there experiencing severe writer's block, who just can't seem to come up with an idea for a story.  See where I'm going with this?  If not, you get an F on your assignment, see me after class.
 
 Both of these ideas are in the very early stages, and I have no idea if either of them will pan out at all.  But I expect that regardless of what they evolve into, that I'll continue to focus on the idea of collaboration as a powerful tool for good.
-
-
