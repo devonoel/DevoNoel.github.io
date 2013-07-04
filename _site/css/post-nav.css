@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Stalinist+One);
+
+nav.prev-next-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+nav.prev-next-buttons > a {
+  text-decoration: none;
+  color: #EEE6BC;
+  background-color: #586C10;
+  min-width: 100px;
+  padding: 15px;
+  text-transform:lowercase;
+}
+
+a.prev-button {
+  transition:left 0.3s;
+  -webkit-transition:left 0.3s;
+  -moz-transition: left 0.3s;
+  left: -100px;
+  position: absolute;
+  text-align: left;
+}
+
+a.prev-button:hover {
+  left: 0px;
+}
+
+a.prev-button:after {
+  font-family: 'Stalinist One', cursive;
+  position: absolute;
+  right: 10px;
+  content: '<';
+  font-size: 24px;
+  top: 15px;
+}
+
+a.next-button {
+  transition:right 0.3s;
+  -webkit-transition:right 0.3s;
+  -moz-transition: right 0.3s;
+  right: -100px;
+  position: absolute;
+  text-align: right;
+}
+
+a.next-button:hover {
+  right: 0px;
+}
+
+a.next-button:before {
+  font-family: 'Stalinist One', cursive;
+  position: absolute;
+  left: 10px;
+  content: '>';
+  font-size: 24px;
+  top: 15px;
+}
