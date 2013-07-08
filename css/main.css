@@ -19,7 +19,6 @@
 html {
   height: 100%;
   width: 100%;
-	overflow-x: hidden;
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -29,7 +28,6 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-	overflow-x: hidden;
 }
 
 @font-face {
@@ -76,15 +74,11 @@ a.symbol:hover {
 
 .container {
   position: absolute;
-  overflow: auto;
   left: 0;
   right: 0;
   top: 0;
   bottom: 50px;
   padding-bottom: 20px;
-  border-top: 7px solid #586C10;
-  border-bottom: 7px solid #586C10;
-	overflow-x: hidden;
 }
 
 .menu {
@@ -96,6 +90,7 @@ a.symbol:hover {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px;
+	border-top: 7px solid #586C10;
 }
 
 .menu-main {

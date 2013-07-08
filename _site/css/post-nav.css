@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Stalinist+One);
 
 nav.prev-next-buttons {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 45%;
+	left: 0;
   width: 100%;
 }
 
