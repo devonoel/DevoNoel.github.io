@@ -161,15 +161,14 @@ a {
 /*
 /*****************************************************************************/
 
-.floater {
-  float: left; 
-  height: 30%;
+#main-logo {
+	margin-bottom: 35px;
 }
 
 .content {
-  clear: both;
+	position: absolute;
+	bottom: 10%;
   height: auto;
-  position: relative;
   text-align: center;
 	width: 100%;
 }
