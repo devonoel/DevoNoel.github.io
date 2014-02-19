@@ -1,6 +1,4 @@
-Source for my Github Pages site
+DevoNoel
 =============
 
-What it says on the tin.
-
-My very own personal portfolio, blog and website.
+The source code for my personal site.
