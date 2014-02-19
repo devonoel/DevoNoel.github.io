@@ -11,7 +11,7 @@
 }
 
 html, body { 
-  height: 100%; 
+  height: 100%;
   position: relative;
 }
 
@@ -41,13 +41,19 @@ a:hover {
   color: #99efee;
 }
 
+header, footer {
+  clear: both;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 header {
   padding: 80px 0;
-  float: left;
-  max-width: 1000px;
-  left: 50%;
-  margin-left: -500px;
-  position: relative;
+}
+
+footer {
+  height: 80px;
 }
 
 header h1 {
@@ -57,14 +63,6 @@ header h1 {
 header h2 {
   font-size: 28px;
   padding-left: 2px;
-}
-
-footer {
-  position: relative;
-  height: 80px;
-  max-width: 1000px;
-  left: 50%;
-  margin-left: -500px;
 }
 
 #social-icons {
@@ -80,11 +78,8 @@ footer {
   position: relative;
   line-height: 1.75em;
   max-width: 750px;
-  position: relative;
-  left: 50%;
-  margin-left: -375px;
+  margin: 0 auto;
   padding-bottom: 50px;
-  height: 100%;
 }
 
 #content h2, #content h3, #content p {
@@ -123,4 +118,12 @@ footer {
 .more-button a:hover, .back-button a:hover {
   background-color: #99efee;
   color: #49484C;
+}
+
+@media only screen and (max-width: 820px) {
+  #content { width: 90%; }
+}
+
+@media only screen and (max-width: 1090px) {
+  header, footer { width: 90%; }
 }
