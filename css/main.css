@@ -4,239 +4,123 @@
 /*
 /*****************************************************************************/
 
+/* Global Reset */
 * {
-  background-color: #20390D;
-  color: #EEE6BC;
   margin: 0;
   padding: 0;
-  font-family: 'Arvo', serif;
-  font-size: 18px;
-  line-height: 25px;
-  font-style: normal;
-  text-decoration: none;
 }
 
-html {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-body {
-  height: 100%;
-  width: 100%;
+html, body { 
+  height: 100%; 
   position: relative;
 }
 
-@font-face {
-  font-family: 'Mono Social Icons Font';
-  src: url('../fonts/MonoSocialIconsFont-1.10.eot');
-  src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-       url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-       url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-  src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+body {
+  background-color: #29282C;
+  font-family: 'Open Sans', sans-serif;
+  color: #feeeee;
+  font-size: 18px;
 }
 
-.symbol, a.symbol:before {
-  font-family: 'Mono Social Icons Font';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	font-size: 35px;
-	background-color: #343434;
-	color: #989F31;
-}
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
 
-.symbol {
-  margin-right: 0.3em;
-}
-
-a.symbol:before {
-    content: attr(title);
-    font-size: 130%;
-}
-
-a.symbol:hover {
-  color: #EEE6BC;
-}
-
-.container {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 50px;
-  padding-bottom: 20px;
-}
-
-.menu {
-  background-color: #343434;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  height: 30px;
-  overflow: hidden;
-  padding-top: 10px;
-  padding-bottom: 10px;
-	border-top: 7px solid #586C10;
-}
-
-.menu-main {
-  float: left;
-	background-color: #343434;
-}
-
-.menu-main  > a{
-  background-color: #343434;
-	color: #989F31;
-  font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
-  text-transform: lowercase;
-  padding: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.menu-main > a:hover {
-  color: #EEE6BC;
-}
-
-a.menu-active {
-	background-color: #586C10;
-	color: #343434;
-}
-
-.menu-social {
-  float: right;
-  background-color: #343434;
-  padding-right: 10px;
-}
-
-h1 {
-  color: #989F31;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 80px;
-	line-height: 45px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
-h2 {
-  color: #989F31;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 60px;
-  margin-top: 15px;
-  padding-top: 10px;
-  padding-bottom: 40px;
-}
-
-h4 {
-  line-height: 35px;
-}
-
-h5 {
-  color: #A4A4A4;
-  font-size: 14px;
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
-	color: #C1C059;
+  text-decoration: none;
+  color: #66cfcc;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-#main-logo {
-	margin-bottom: 35px;
+a:hover {
+  color: #99efee;
 }
 
-.content {
-	position: absolute;
-	bottom: 10%;
-  height: auto;
-  text-align: center;
-	width: 100%;
+header {
+  padding: 80px 0;
+  float: left;
+  max-width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+  position: relative;
 }
 
-/*****************************************************************************/
-/*
-/* Work
-/*
-/*****************************************************************************/
-
-.content-work {
-  width: 94%; 
-  padding: 50px;
-  padding-bottom: 100px;
-	float: left;
+header h1 {
+  font-size: 60px;
 }
 
-/*****************************************************************************/
-/*
-/* Blog
-/*
-/*****************************************************************************/
-
-.blog {
-	padding: 50px;
-	float: left;
-	max-width: 1400px;
+header h2 {
+  font-size: 28px;
+  padding-left: 2px;
 }
 
-.post {
-  padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
-  padding-top: 25px;
-	float: left;
+footer {
+  position: relative;
+  height: 80px;
+  max-width: 1000px;
+  left: 50%;
+  margin-left: -500px;
 }
 
-.post > p {
-	margin-top: 18px;
-	margin-bottom: 18px;
+#social-icons {
+  font-size: 30px;
 }
 
-/*****************************************************************************/
-/*
-/* About
-/*
-/*****************************************************************************/
-
-.content-about {
-	padding: 50px;
-	float: left;
-	max-width: 1400px;
+#social-icons a {
+  padding-right: 10px;
 }
 
-.content-about > p {
-	font-size: 22px;
+#content {
+  clear: both;
+  position: relative;
+  line-height: 1.75em;
+  max-width: 750px;
+  position: relative;
+  left: 50%;
+  margin-left: -375px;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
-a.about-link {
-	font-size: 22px;
+#content h2, #content h3, #content p {
+  padding-bottom: 15px;
 }
 
-a.about-link:hover{
-	color: #EEE;
+#content h2 {
+  font-size: 28px;
 }
 
-img.about-image {
-	float: left;
-	padding-right: 25px;
-	padding-bottom: 15px;
+#content h3 {
+  font-size: 20px;
+}
+
+#content a {
+  font-weight: bold; 
+}
+
+#posts {
+  list-style-type: none;
+}
+
+.more-button, .back-button {
+  text-transform: uppercase;
+  margin: 15px 0 30px 0;
+  font-size: 16px;
+}
+
+.more-button a, .back-button a {
+  background-color: #66cfcc;
+  color: #29282C;
+  padding: 7px 12px;
+  border-radius: 3px;
+}
+
+.more-button a:hover, .back-button a:hover {
+  background-color: #99efee;
+  color: #49484C;
 }

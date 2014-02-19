@@ -1,2 +1,4 @@
 name: DevoNoel
+markdown: redcarpet
 pygments: true
+excerpt_separator: <!--excerpt-->

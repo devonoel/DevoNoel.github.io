@@ -1,60 +1,38 @@
----
-navigation:
-- text: home
-  url: /index.html
-- text: work
-  url: /work.html
-- text: blog
-  url: /blog.html
-- text: about
-  url: /about.html
----
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>{{ page.title }}</title>
-		<meta name="viewport" content="width=device-width">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
 
-		<!-- CSS -->
-		<link href="/css/main.css" rel="stylesheet">
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
 
-		<!-- Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
 
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="/favicon.ico">
-	</head>
-
-	<body>
-		<div class="container">
-			{{ content }}
-		</div>
-
-		<div class="menu">
-	  	<div class="menu-main">
-				{% for link in page.navigation %}
-					<a href="{{link.url}}" {% if page.url == link.url %}class="menu-active"{% endif %}>{{link.text}}</a>
-		    {% endfor %}
-			</div>
-			<div class="menu-social">
-			  <a href="https://twitter.com/NoelDevo" class="symbol">circletwitterbird</a><a href="https://github.com/DevoNoel" class="symbol">circlegithubalt</a><a href="http://linkedin.com/pub/devon-noel-de-tilly/70/69b/2b" class="symbol">circlelinkedin</a><a href="mailto:devon.noeldetilly@gmail.com" class="symbol">circleemail</a>
-			</div>
-	  </div>
-    
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-35781451-2', 'devonoel.com');
-      ga('send', 'pageview');
-    </script>
-	</body>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="site">
+          <header>
+            <h1><a href="/">DevoNoel</a></h1>
+            <h2>Maker of Things</h2>
+          </header>
+          <div id="content">
+            {{ content }}
+          </div>
+          <footer>
+            <div id="social-icons">
+              <a href="https://github.com/DevoNoel"><i class="fa fa-github"></i></a>
+              <a href="https://twitter.com/NoelDevo"><i class="fa fa-twitter"></i></a>
+              <a href="mailto:devon.noeldetilly@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+          </footer>
+        </div>
+    </body>
 </html>
-		
