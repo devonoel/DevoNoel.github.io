@@ -1,0 +1,101 @@
+---
+---
+
+/* Mixins, imports, variables */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+$footer-height: 105px;
+$orange: #E05221;
+$dark-brown: #3D210C;
+$light-brown: #5F442E;
+$hover-color: #DDD;
+$open-sans: 'Open Sans', 'sans-serif';
+$raleway: 'Raleway', 'sans-serif';
+
+@mixin vertical-align-parent($height) {
+  height: $height;
+  line-height: $height;
+}
+
+@mixin vertical-align() {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Global resets */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Les styles */
+
+body {
+  margin: 0 0 $footer-height;
+  background-color: $orange;
+  color: $dark-brown;
+  font-family: $open-sans;
+  max-width: 1150px;
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+header {
+  margin-top: $footer-height / 2;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: $footer-height;
+  width: 100%;
+
+  a {
+    color: $dark-brown;
+    font-size: 40px;
+    padding-right: 10px;
+  }
+}
+
+a {
+  color: $light-brown; text-decoration: none;
+}
+
+a:hover {
+  color: $hover-color; text-decoration: none;
+}
+
+h1, h2 {
+  font-family: $raleway;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#content {
+  @include vertical-align-parent(370px);
+}
+
+#index {
+  font-size: 32px;
+  line-height: 50px;
+  text-align: right;
+  @include vertical-align();
+}
