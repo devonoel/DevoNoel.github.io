@@ -9,16 +9,18 @@ html {
   min-height: 100%; }
 
 body {
-  margin: 0 0 100px 100px;
-  max-width: 1200px;
-  min-width: 800px;
-  padding: 10px;
-  background-color: #e05221;
-  color: #3d210c;
+  background-color: #2e3140;
+  color: #ffc37a;
   font-family: "Open Sans", "sans-serif";
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+#container {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto 100px auto;
+  padding: 0 20px; }
 
 header {
   padding-top: 50px; }
@@ -30,15 +32,15 @@ footer {
   width: 230px;
   font-size: 40px; }
   footer a {
-    color: #3d210c;
+    color: #ffc37a;
     padding-right: 10px; }
 
 a {
-  color: #5f442e;
+  color: #ffffd3;
   text-decoration: none; }
 
 a:hover {
-  color: #dddddd;
+  color: #ffffba;
   text-decoration: none; }
 
 h1, h2 {

@@ -1,59 +1,73 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
-* {
-  margin: 0;
-  padding: 0; }
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900)
 
-html {
-  position: relative;
-  min-height: 100%; }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700)
 
-body {
-  margin: 0 0 100px 100px;
-  max-width: 1200px;
-  min-width: 800px;
-  padding: 10px;
-  background-color: #e05221;
-  color: #3d210c;
-  font-family: "Open Sans", "sans-serif";
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+$footer-height: 100px
+$background-color: #2e3140
+$text-color: #ffc37a
+$link-color: #ffffd3
+$hover-color: #ffffba
+$open-sans: "Open Sans", "sans-serif"
 
-header {
-  padding-top: 50px; }
+=box-sizing($box-model)
+  -webkit-box-sizing: $box-model
+  -moz-box-sizing: $box-model
+  box-sizing: $box-model
 
-footer {
-  position: absolute;
-  bottom: 0;
-  height: 100px;
-  width: 230px;
-  font-size: 40px; }
-  footer a {
-    color: #3d210c;
-    padding-right: 10px; }
+*
+  margin: 0
+  padding: 0
 
-a {
-  color: #5f442e;
-  text-decoration: none; }
+html
+  position: relative
+  min-height: 100%
 
-a:hover {
-  color: #dddddd;
-  text-decoration: none; }
+body
+  background-color: $background-color
+  color: $text-color
+  font-family: $open-sans
+  +box-sizing(border-box)
 
-h1, h2 {
-  font-family: 'Raleway', 'sans-serif'; }
+#container
+  max-width: 1200px
+  min-width: 800px
+  margin: 0 auto $footer-height auto
+  padding: 0 20px
 
-h1 {
-  font-weight: 900;
-  font-size: 60px; }
+header
+  padding-top: $footer-height / 2
 
-h2 {
-  font-weight: 700;
-  font-size: 35px; }
+footer
+  position: absolute
+  bottom: 0
+  height: $footer-height
+  width: 230px
+  font-size: 40px
+  a
+    color: $text-color
+    padding-right: 10px
 
-#index {
-  font-size: 32px;
-  line-height: 50px;
-  margin-top: 150px;
-  text-align: right; }
+a
+  color: $link-color
+  text-decoration: none
+
+a:hover
+  color: $hover-color
+  text-decoration: none
+
+h1, h2
+  font-family: 'Raleway', 'sans-serif'
+
+h1
+  font-weight: 900
+  font-size: 60px
+
+h2
+  font-weight: 700
+  font-size: 35px
+
+#index
+  font-size: 32px
+  line-height: 50px
+  margin-top: 150px
+  text-align: right

@@ -5,10 +5,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 
 $footer-height: 100px;
-$orange: #E05221;
-$dark-brown: #3D210C;
-$light-brown: #5F442E;
-$hover-color: #DDD;
+$background-color: #2E3140;
+$text-color: #ffc37a;
+$link-color: #ffffd3;
+$hover-color: #ffffba;
 $open-sans: 'Open Sans', 'sans-serif';
 
 @mixin box-sizing($box-model) {
@@ -28,14 +28,17 @@ html {
 }
 
 body {
-  margin: 0 0 $footer-height 100px;
-  max-width: 1200px;
-  min-width: 800px;
-  padding: 10px;
-  background-color: $orange;
-  color: $dark-brown;
+  background-color: $background-color;
+  color: $text-color;
   font-family: $open-sans;
   @include box-sizing(border-box);
+}
+
+#container {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto $footer-height auto;
+  padding: 0 20px;
 }
 
 header {
@@ -50,12 +53,12 @@ footer {
   font-size: 40px;
 
   a {
-    color: $dark-brown;
+    color: $text-color;
     padding-right: 10px;
   }
 }
 
-a         { color: $light-brown; text-decoration: none; }
+a         { color: $link-color; text-decoration: none; }
 a:hover   { color: $hover-color; text-decoration: none; }
 
 h1, h2 {
@@ -78,70 +81,3 @@ h2 {
   margin-top: 150px;
   text-align: right;
 }
-
-// /* Global Reset */
-// * {
-//   margin: 0;
-//   padding: 0;
-// }
-//
-// html, body { height: 100%; }
-//
-// /* Le Styles */
-//
-// body {
-//   position: relative;
-//   background-color: #E05221;
-//   color: #3D210C;
-//   font-family: 'Open Sans', 'sans-serif';
-//   padding: 50px;
-//   max-width: 1200px;
-//   min-width: 800px;
-//   height: 700px;
-//   margin: auto;
-//   box-sizing:border-box;
-//   -moz-box-sizing:border-box; /* Firefox */
-// }
-//
-// a         { color: #3D210C; text-decoration: none; }
-// a:hover   { color: #DDD; text-decoration: none; }
-//
-// h1, h2 {
-//   font-family: 'Raleway', 'sans-serif';
-// }
-//
-// h1 {
-//   font-weight: 900;
-//   font-size: 60px;
-// }
-//
-// h2 {
-//   font-weight: 700;
-//   font-size: 35px;
-// }
-//
-// footer {
-//   position: absolute;
-//   bottom: 50px;
-//   font-size: 40px;
-// }
-//
-// footer a {
-//   padding-right: 10px;
-// }
-//
-// #index {
-//   margin: 100px auto;
-//   padding: 50px 0;
-//   font-size: 32px;
-//   line-height: 50px;
-//   text-align: right;
-// }
-//
-// #index a {
-//   color: #5F442E;
-// }
-//
-// #index a:hover {
-//   color: #DDD;
-// }
