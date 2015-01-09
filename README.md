@@ -1,4 +1,4 @@
-DevoNoel
+[DevoNoel](http://devonoel.com)
 =============
 
-The source code for my personal site.
+My extremely minimal personal site.
