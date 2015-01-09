@@ -22,9 +22,14 @@ body {
 }
 
 header {
-  padding: 0 25px 0 25px;
+  position: relative;
   max-width: 500px;
-  margin: 15% auto 0 auto;
+  margin: 0 auto;
+  padding: 0 25px 0 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   border-right: 4px solid #C49A6C;
 }
 
@@ -93,6 +98,10 @@ header h2 {
 }
 
 @media screen and (min-width:550px) {
+  header {
+    max-width: 500px;
+  }
+
   header h1 {
     font-size: 4.1em;
   }
