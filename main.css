@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Ramabhadra);
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #1f1e20;
+  color: #C49A6C;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+header {
+  padding: 0 25px 0 25px;
+  max-width: 500px;
+  margin: 15% auto 0 auto;
+  border-right: 4px solid #C49A6C;
+}
+
+header h1 {
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 4.1em;
+  line-height: 0.8em;
+  padding-bottom: 40px;
+}
+
+header h2 {
+  font-size: 2.1em;
+}
+
+#social {
+  padding-top: 30px;
+}
+
+#social a {
+  color: #888;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2em;
+  padding-right: 20px;
+}
+
+#social a:hover {
+  color: #C49A6C;
+}
+
+@media screen and (max-width:449px) {
+  header {
+    max-width: 300px;
+  }
+
+  header h1 {
+    font-size: 2.7em;
+  }
+
+  header h2 {
+    font-size: 1.4em;
+  }
+
+  #social a {
+    font-size: 0.75em;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width:549px) and (min-width:450px) {
+  header {
+    max-width: 400px;
+  }
+  header h1 {
+    font-size: 3.5em;
+  }
+
+  header h2 {
+    font-size: 1.8em;
+  }
+
+  #social a {
+    font-size: 1em;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (min-width:550px) {
+  header h1 {
+    font-size: 4.1em;
+  }
+
+  header h2 {
+    font-size: 2.1em;
+  }
+
+  #social a {
+    font-size: 1em;
+    padding-right: 20px;
+  }
+}
