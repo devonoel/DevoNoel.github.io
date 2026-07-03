@@ -1,10 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Ramabhadra);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Ramabhadra&display=swap);
 
-*{
+* {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -25,23 +23,21 @@ header {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
-  padding: 0 25px 0 25px;
+  padding: 0 25px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   border-right: 4px solid #C49A6C;
 }
 
 header h1 {
   font-family: 'Ramabhadra', sans-serif;
-  font-size: 4em;
+  font-size: clamp(2.7em, 8vw, 4em);
   line-height: 0.8em;
   padding-bottom: 40px;
 }
 
 header h2 {
-  font-size: 2em;
+  font-size: clamp(1.4em, 4vw, 2em);
 }
 
 #social {
@@ -52,66 +48,28 @@ header h2 {
   color: #888;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: clamp(0.75em, 2vw, 1em);
   line-height: 2em;
   padding-right: 20px;
+  transition: color 0.15s ease;
 }
 
-#social a:hover {
+#social a:hover,
+#social a:focus-visible {
   color: #C49A6C;
 }
 
-@media screen and (max-width:449px) {
+#social a:focus-visible {
+  outline: 1px solid #C49A6C;
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 449px) {
   header {
     max-width: 300px;
   }
 
-  header h1 {
-    font-size: 2.7em;
-  }
-
-  header h2 {
-    font-size: 1.4em;
-  }
-
   #social a {
-    font-size: 0.75em;
     padding-right: 5px;
-  }
-}
-
-@media screen and (max-width:549px) and (min-width:450px) {
-  header {
-    max-width: 400px;
-  }
-  header h1 {
-    font-size: 3.5em;
-  }
-
-  header h2 {
-    font-size: 1.8em;
-  }
-
-  #social a {
-    font-size: 1em;
-    padding-right: 5px;
-  }
-}
-
-@media screen and (min-width:550px) {
-  header {
-    max-width: 500px;
-  }
-
-  header h1 {
-    font-size: 4em;
-  }
-
-  header h2 {
-    font-size: 2em;
-  }
-
-  #social a {
-    font-size: 1em;
-    padding-right: 20px;
   }
 }
